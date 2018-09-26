@@ -1,6 +1,11 @@
 
 # Created by https://www.gitignore.io/api/node
 
+## TS Artifacts
+*.js
+*.js.map
+*.d.ts
+
 ### Node ###
 # Logs
 logs

@@ -13,13 +13,16 @@
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
+    "@abraham/reflection": "^0.4.2",
     "@angular-devkit/core": "^0.8.3",
     "@angular-devkit/schematics": "^0.8.3",
     "@types/jasmine": "^2.6.0",
     "@types/node": "^8.0.31",
     "injection-js": "^2.2.1",
     "jasmine": "^2.8.0",
-    "reflection": "^0.0.1",
-    "typescript": "^2.5.2"
+    "typescript": "^3.0.3"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1"
   }
 }
