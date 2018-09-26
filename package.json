@@ -1,0 +1,25 @@
+{
+  "name": "ioc",
+  "version": "0.0.0",
+  "description": "A blank schematics",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^0.8.3",
+    "@angular-devkit/schematics": "^0.8.3",
+    "@types/jasmine": "^2.6.0",
+    "@types/node": "^8.0.31",
+    "injection-js": "^2.2.1",
+    "jasmine": "^2.8.0",
+    "reflection": "^0.0.1",
+    "typescript": "^2.5.2"
+  }
+}
