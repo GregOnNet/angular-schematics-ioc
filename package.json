@@ -18,11 +18,13 @@
     "@angular-devkit/schematics": "^0.8.3",
     "@types/jasmine": "^2.6.0",
     "@types/node": "^8.0.31",
+    "@types/sinon": "^5.0.2",
     "injection-js": "^2.2.1",
     "jasmine": "^2.8.0",
     "typescript": "^3.0.3"
   },
   "devDependencies": {
+    "sinon": "^6.3.4",
     "ts-node": "^7.0.1"
   }
 }
